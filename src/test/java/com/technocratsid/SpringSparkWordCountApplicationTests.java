@@ -1,4 +1,4 @@
-package com.technocratsid.spring.spark.Spring.Spark.Word.Count;
+package com.technocratsid;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
