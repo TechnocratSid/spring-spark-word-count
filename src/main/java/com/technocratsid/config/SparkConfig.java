@@ -21,7 +21,7 @@ public class SparkConfig {
 		return new SparkConf().setAppName(appName).setMaster(masterUri);
 	}
 
-	@Bean
+	@Bean(destroyMethod = "close")
 	public JavaSparkContext sc() {
 		return new JavaSparkContext(conf());
 	}
